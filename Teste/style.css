@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    height: 100vh;
+}
+div {
+    background-color: #b1060f;
+    height: 500px;
+    width: 120px;
+    position: relative;
+}
+div::before {
+    background-color: #b1060f;
+    height: 500px;
+    width: 120px;
+    position: absolute;
+    content: '';
+    left: 180px;
+}
+div::after {
+    background-color: #222;
+    height: 40px;
+    width: 350px;
+    position: absolute;
+    content: '';
+    left: -30px;
+    bottom: -20px;
+    border-radius: 50%;
+}
+span {
+    position: absolute;
+    height: 500px;
+    width: 120px;
+    background-color: #e50913;
+    left: 92px;
+    transform: skew(20deg);
+    bottom: 0 0 10px -4px;
+}
