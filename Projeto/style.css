@@ -28,3 +28,14 @@ p#mapa {
 p {
     text-align: center;
 }
+.fotos {
+    max-width: 400px;
+    max-height: 300px;
+    /*display: flex;*/
+    margin: 5px;
+    border-color: aliceblue;
+    }
+.container {
+    align-items: center;
+    text-align: center;
+}
