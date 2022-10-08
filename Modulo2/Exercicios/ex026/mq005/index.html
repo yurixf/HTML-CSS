@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burger" class="material-symbols-sharp" onclick="clickMenu()">
+            menu
+        </i> 
+        <menu id="lista">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ducimus quasi quod, quaerat ad, exercitationem ratione nam consectetur ex laboriosam, officiis vel minima? Obcaecati non ab, repudiandae deleniti velit laudantium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero sed inventore nulla et enim accusamus quos. Tempore quos, eos voluptatum, eaque ducimus et itaque aperiam laudantium cum cumque, animi quae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis est iure minus laborum ipsam. Recusandae molestias temporibus ullam inventore porro dolorem perspiciatis tempora illo necessitatibus libero qui, culpa animi nobis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia maxime ipsum repudiandae? Accusantium magnam corporis doloremque quod. Excepturi esse accusantium a placeat nesciunt ducimus, nulla beatae facilis, sed sit expedita.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet assumenda, nobis deserunt numquam et nulla magnam unde optio fugiat ex perferendis, repellat libero pariatur harum ipsam illo magni modi facere? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam inventore maxime necessitatibus modi, illum optio, expedita reprehenderit recusandae beatae neque laudantium deserunt perspiciatis non ut eaque cupiditate? Minima, aperiam! Eveniet.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (lista.style.display == 'block') {
+                lista.style.display = 'none'
+            } else {
+                lista.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
